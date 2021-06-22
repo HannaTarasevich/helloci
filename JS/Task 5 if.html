@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<body>
+<script>
+let message;
+let login = prompt ("Introduce yourself", '');
+
+(login == 'Сотрудник') ?
+  message = 'Привет':
+
+(login == 'Директор') ?
+  message = 'Здравствуйте':
+
+(login == '') ?
+  message = 'Нет логина':
+
+  message = '';
+
+alert (message);
+</script>
+</body>
+</html>
+
