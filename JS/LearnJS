@@ -1,0 +1,17 @@
+<p>before script</p>
+<script>
+alert ('Hello, world!');
+</script>
+<p>after script</p>
+
+<script type="text/javascript"><!--
+    ...
+//--></script>
+
+<script language=Ruby>
+//--></script>
+
+<script src="/path/to/script.js"></script>
+
+<script src="/js/script1.js"></script>
+<script src="/js/script2.js"></script>
